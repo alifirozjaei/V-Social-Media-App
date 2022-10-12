@@ -1,0 +1,77 @@
+// Variables
+@import "variables";
+@import "./tiptap/main.scss";
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+@font-face {
+ font-family: IRSans;
+ src: url("../fonts/IRANSans.ttf");
+}
+
+// Vuetify
+@import "~vuetify/dist/vuetify.min.css";
+@import "../../node_modules/@mdi/font/css/materialdesignicons.min.css";
+@import "../../node_modules/vue2-dropzone/dist/vue2Dropzone.min.css";
+
+body .v-application {
+ font-family: IRSans !important;
+}
+.v-application .body-1 {
+ font-family: IRSans !important;
+ font-weight: lighter !important;
+ font-size: 14px !important;
+ letter-spacing: 0 !important;
+}
+
+.v-btn {
+ letter-spacing: 0 !important;
+}
+
+.h-100 {
+ height: 100%;
+}
+.w-100 {
+ width: 100%;
+}
+
+.small-text {
+ font-size: small;
+}
+
+.v-application .subtitle-1,
+.v-application .subtitle-2,
+.v-application .caption,
+.v-application .overline,
+.v-application .body-2,
+.v-application .h1,
+.v-application .h2,
+.v-application .h3,
+.v-application .h4,
+.v-application .h5,
+.v-application .display-1,
+.v-application .display-2,
+.v-application .display-3,
+.v-application .display-4,
+.v-application .display-5,
+.v-application .headline,
+.v-application .title,
+.v-application .h6 {
+ font-family: IRSans !important;
+}
+
+.gra-bg {
+ background-image: linear-gradient(to bottom right, #054592 0, #1897d4);
+}
+.h-100 {
+ height: 100%;
+}
+
+.ltr {
+ direction: ltr !important;
+}
+
+.custom-dark {
+ background-color: #121212;
+}
